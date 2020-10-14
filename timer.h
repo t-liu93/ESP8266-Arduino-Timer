@@ -28,3 +28,12 @@ public:
     void tick();
     bool timeElapsed(unsigned long prvTime, unsigned long interval);
 };
+
+class Esp8266TimerSecond : public Esp8266Timer
+{
+public:
+    Esp8266TimerSecond();
+
+    void tick();
+    bool timeElapsed(unsigned long prvTime, unsigned long interval);
+};
