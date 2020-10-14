@@ -38,7 +38,7 @@ bool Esp8266TimerMill::timeElapsed(unsigned long prvTime, unsigned long interval
     return (curTime - prvTime) > interval;
 }
 
-Esp8266TimerSecond::Esp8266TimerSecond();
+Esp8266TimerSecond::Esp8266TimerSecond()
 {
     curTime = millis() / 1000;
 }
