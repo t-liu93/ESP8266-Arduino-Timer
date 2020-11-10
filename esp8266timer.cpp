@@ -1,3 +1,4 @@
+#include <Arduino.h>
 #include "esp8266timer.h"
 
 unsigned long Esp8266Timer::getCurTime()
